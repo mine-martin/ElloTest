@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.linkHome {
+  box-sizing: border-box;
+  padding: 20px 20px;
+  margin: 20px 20px;
+  text-align: center;
+  align-items: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* max-width: 50rem;
+  min-width: 50rem; */
+  width: 50%;
+  margin: 10px 10px;
+  /* margin: auto; */
+  text-align: center;
+  font-family: arial;
+  word-wrap: break-word;
+  background-color: #f1f1f1;
+}
+
+.container {
+  width: 100%;
+  /* padding: 20px 20px; */
+  display: flex;
+
+  /* flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+}
+h1,
+h2 {
+  padding: 20px 20px;
+}
+a.Links {
+  text-decoration: none;
+  word-spacing: 25px !important;
+}
+
+.box {
+  text-align: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px 20px;
+  background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 800px) {
+  .card {
+    width: 100%;
+    max-width: 100%;
+    margin: 0px 0px;
+    /* font-size: 15px; */
+    padding-bottom: 10px 10px;
+    word-spacing: 0px;
+    line-height: 1.3rem;
+    /* margin-top: 20px; */
+  }
+  .container {
+    display: block;
+    padding: 0px 0px;
+  }
+}
