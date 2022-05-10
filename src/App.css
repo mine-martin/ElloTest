@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #022c43;
 }
 
 .App-logo {
@@ -59,6 +60,7 @@
 }
 
 .container {
+  background-color: #022c43;
   width: 100%;
   /* padding: 20px 20px; */
   display: flex;

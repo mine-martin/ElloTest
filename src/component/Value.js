@@ -1,5 +1,5 @@
-import React from 'react';
-import { useMatch } from 'react-router-dom';
+import React from "react";
+import { useMatch } from "react-router-dom";
 
 //component to display each token value from the token page
 const Value = (props) => {
